@@ -1,0 +1,79 @@
+------------------------------------------------------------------------------------------------------------------------------------
+								PROJECT REVIEW
+-------------------------------------------------------------------------------------------------------------------------------------
+TITLE		: Access Guard Security System
+MOTIVATION	: Portfolio Development
+PROJECT TYPE: IoT based security system with web-based interface
+ObJECTIVE	: Integrate hardware and software components for intelligent monitoring
+PURPOSE 	: To ensure only authorized users gain access to secured premises where the system is installed. 
+		    : Enable real-time data access for system administrators and provide technical assistance through remote control.
+	
+-------------------------------------------------------------------------------------------------------------------------------------
+SYSTEM COMPONENTS
+------------------------------------------------
+1. Web-based user interface
+2. Application server 
+3. Database
+4. Micro-controller 
+5. ESP8266 WIFI-module 
+6. Electronic Circuitry 
+7. Data visualization and analytics 
+8. Network architecture
+
+------------------------------------------------
+NETWORK ARCHITECTURE
+------------------------------------------------
+
+NETWORK 1: SYSTEM NETWORK; System operation and communication
+		<i> Device to server communication
+		<ii> Data storage and processing
+		<iii> Internal system control
+
+	A) Eclipse Mosquitto MQTT Broker
+	B) Application Server
+	C) Database 
+	D) Internal LAN
+	E) Router -> WAN / CLOUD
+
+NETWORK 2:IoT System: System Operation and Communication
+		<i> Device to server communication
+		<ii> Internal system control
+
+	A) ESP-01 WIFI Module Device
+	B) Arduino Uno Micro-Controller
+	C) Internal LAN
+	D) Router -> WAN / CLOUD
+
+NETWORK 3: EXTERNAL ACCESS NETWORK;
+		<i> Remote control and monitoring
+		<ii> Administrative control
+
+	A) External user device (PC)
+	B) Internal LAN
+	C) Router
+	D) Router -> WAN / CLOUD -> System Network
+
+------------------------------------------------
+SECURITY MEASURES
+------------------------------------------------
+1. User authentication and authorization
+2. Router firewall and port control rules
+3. Password hashing and encryption
+4. Network segmentation
+5. Secure communication protocols
+
+------------------------------------------------
+TECHNOLOGIES
+------------------------------------------------
+NOTE: TO BE RE-EDITED AT A LATER STAGE
+
+1. Programming languages: Python, HTML, CSS, Arduino C, SQL
+2. Framework: Flask
+3. Database types: MySQL
+4. Communication Protocols : HTTP -> HTTPS,IP,TCP,I2C,MQTT
+..
+
+
+----------------------------------------------------------------------------------------------------------------------------
+							(END)
+----------------------------------------------------------------------------------------------------------------------------

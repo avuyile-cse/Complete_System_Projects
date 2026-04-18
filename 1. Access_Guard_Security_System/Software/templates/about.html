@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>About</title>
+		
+		<style>
+		body{
+				background-color:cadetblue;	
+				font-family: Arial,sans-serif;
+				font-size: 20px;
+			}
+			
+		header{
+			text-align:center;
+			padding:20px;
+			}
+	
+		.about{
+			text-align:center;
+			background-color:cornsilk;
+			margin: 0 auto;
+			padding: 50px;
+			width: 50%;
+			max-width: 800px;
+			height: auto;	
+			border-radius:5px;
+			border: 3px solid #CCC;
+			
+			transform: scale(1.02);
+			box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+			}
+		.about h2{
+			text-align: center;
+			margin-bottom: 20px;
+			}
+		.about{
+			line-height:1.2;
+			}
+			
+		.about ol{
+			list-style:none;
+			margin-top: 20px;
+			padding: 0;
+			}
+		.about li{
+			display: flex;
+			align-items:center;
+			gap:15px;
+			margin-bottom: 10px;
+			}
+	
+		.image{
+			height: 100px;
+			width: 15%;
+			border-radius:12px;
+	
+			}
+			
+		.image:hover{
+			box-shadow: 0 0 20px rgba(0,0,0,0.4);
+			transform: scale(1.02);
+			cursor:pointer;
+			}
+			
+		.image:active{
+			transform: scale(0.98);
+			}
+			
+		footer{
+			text-align: center;
+			padding: 15px;
+			font-size: 14px;			
+			}
+			
+		footer a{
+			color: black;
+			text-decoration: none;
+		}
+		footer a:hover{
+			text-decoration: underline;
+		}
+	
+		</style>
+	</head>
+	
+
+	<body>
+		<header>
+			<a href = "index.html">
+				<img class = "image" src ="../static/logo.png" alt="image">
+			</a>
+		</header>
+			
+		<div class = "about">
+			<p>
+				<strong>Access Guard</strong> is an IoT Based security system integrated with a secure web interface(Intranet-based).
+				The system is designed to ensure that only authorized individuals gain access to protected premises where the system is deployed.
+			</p>
+			
+			<p>
+				It combines hardware, networking, and web technologies to provide real-time monitoring and controlled access management.
+			</p>
+			
+			<hr>
+			
+			<b>Key Features:</b>
+			
+			<ol>
+				<li><img src="../static/num_1.png" alt="1" style="width:5%;"> Secure user authentication and gated access control</li>
+				<li><img src="../static/num_2.png" alt="2" style="width:5%;"> Real-time site monitoring</li>
+				<li><img src="../static/num_3.png" alt="3" style="width:5%;"> Client registration and management</li>
+				<li><img src="../static/num_4.png" alt="4" style="width:5%;"> Live system status update</li>
+			</ol>
+		</div>
+		
+		
+		<footer>
+			<p>
+				Number picture content (c) copyright 
+				<a href="https://www.freepik.com/app" target="_blank"><strong>Freepik.com</strong></a>
+			</p>
+		</footer>
+		
+	</body>
+
+
+</html>

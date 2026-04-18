@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Login</title>
+		<style>
+			body{
+				margin: 0;
+				font-family: Arial,sans-serif;
+				display: flex;
+				flex-direction:column;
+				min-height: 100vh;
+				background-color:cadetblue;
+				padding-right:20px;
+				padding-left:20px;
+				
+				}
+
+			header{
+				text-align:center;
+				padding:20px;
+			}
+			main{
+				flex:1;
+				display:flex;
+				justify-content: center;
+				align-items:center;
+			}
+							
+			form{
+				background-color:cornsilk;
+				padding:40px;
+				width:500px;
+				border-radius:30px;
+				display:flex;
+				flex-direction:column;
+				gap:10px;
+				box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+				
+				}
+
+			input{
+				padding:5px;
+				border-radius:8px;
+				border: 2px solid #CCC;
+				font-size:20px;
+				}
+
+			input[type = "submit"]{
+				cursor: pointer;
+				font-weight: bold;
+				color:black;
+				background-color:coral;
+				border:none;
+				border-radius:5px;
+				margin: 1px auto;
+				transition: 0.3s ease;
+				}
+				
+			input[type ="submit"]:hover{
+				color: yellow;
+				background-color:black;
+				}
+				
+			.image{
+				height: 120px;
+				width: 15%;
+				border-radius:12px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<header>
+			<a href = "index.html">
+				<img class = "image" src ="../static/logo.png" alt="image">
+			</a>
+		
+		</header>
+		
+		<main>
+			<form action="#" method="POST">
+				<label for="uname"> Username </label>
+				<input type="text" id="uname" name="uname" required>
+				
+				<label for="pword"> Password </label>
+				<input type="password" id="pword" name="pword" required>
+				
+				<input type="submit" value="submit">
+			</form>
+		</main>
+		
+	</body>
+
+</html>
