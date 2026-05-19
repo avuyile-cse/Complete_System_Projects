@@ -15,7 +15,7 @@ communication.
 
 - Web-based  User Interface
 - Flask Application Server
-- MySQL Database
+- SQLite Database
 - ESP8266 WIFI-module
 - Microcontroller
 - Electronic Circuitry
