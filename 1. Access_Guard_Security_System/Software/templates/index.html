@@ -19,6 +19,12 @@
 				<a href ="login.html" class="login-btn" style = "color:black;">LOGIN</a>
 			</h1>
 			<hr>
+			<div id="system-info">
+				<p id="clock"></p>		
+			<div id="status-container">
+				<span id="status-dot"></span>
+				<span id="status-text">SYSTEM ONLINE</span>
+			</div>
 		</header>
 		
 		<!-- Main -->
@@ -29,11 +35,16 @@
 			</a>
 		</main>
 		
+		
 		<!-- Footer -->
 		<footer>
 			<a href ="about.html"><strong>ABOUT</strong></a>
 			<!-- Future Links : Contact Details, help -->
 		</footer>
 		
+	<script src="script.js"></script>
+	<!--
+		<script src="{{ url_for('static',filename='js/script.js') }}"></script>
+	-->
 	</body>
 </html>

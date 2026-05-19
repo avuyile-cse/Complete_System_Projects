@@ -11,9 +11,9 @@
 				flex-direction:column;
 				min-height: 100vh;
 				background-color:cadetblue;
+				background: linear-gradient(125deg,skyblue,#2f5f1a);
 				padding-right:20px;
-				padding-left:20px;
-				
+				padding-left:20px;				
 				}
 
 			header{
@@ -29,8 +29,9 @@
 							
 			form{
 				background-color:cornsilk;
-				padding:40px;
+				padding:60px;
 				width:500px;
+				height: 25vh;
 				border-radius:30px;
 				display:flex;
 				flex-direction:column;
@@ -63,10 +64,16 @@
 				}
 				
 			.image{
-				height: 120px;
+				height: 100px;
 				width: 15%;
 				border-radius:12px;
-			}
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				}
+			.image:hover{
+				transform: scale(1.02);
+				box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+				cursor:pointer;
+				}
 		</style>
 
 	</head>
