@@ -1,4 +1,3 @@
 
 ## Website user interface home page review
-![Index Review](Complete_System_Projects/Images/Web_Interface/home_page.JPG)
-
+![Index Review](https://raw.githubusercontent.com/avuyile-cse/Complete_System_Projects/main/1.%20Access_Guard_Security_System/Images/Web_Interface/home_page.JPG)
