@@ -1,4 +1,4 @@
 
 ## Website user interface home page review
-![Index Review(images/Web_Interface/home_page.JPG)
+![Index Review](Images/Web_Interface/home_page.JPG)
 
