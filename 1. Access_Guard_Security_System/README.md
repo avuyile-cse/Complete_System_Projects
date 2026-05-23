@@ -1,9 +1,6 @@
 🚧 Access Guard Security System
 ---------------------------------
 
-## Website user interface home page review
-![Index_homepage](images/home_page.JPG)
-
 📌 **Project Overview**
 
 Access Guard Security System is an IoT-Based security solution that integrates hardware and software components to provide
