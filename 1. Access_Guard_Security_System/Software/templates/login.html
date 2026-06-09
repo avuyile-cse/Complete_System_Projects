@@ -47,7 +47,7 @@
 				font-size:20px;
 				}
 
-			input[type = "submit"]{
+			input[type = "submit"],.btn-container button{
 				cursor: pointer;
 				font-weight: bold;
 				color:black;
@@ -56,13 +56,17 @@
 				border-radius:5px;
 				margin: 1px auto;
 				transition: 0.3s ease;
-				}
 				
-			input[type ="submit"]:hover{
+				display: flex;
+				gap: 10px;
+				justify-content: center;
+				margin-top: 10px;
+				}
+	
+			input[type ="submit"]:hover, .btn-container button:hover{
 				color: yellow;
 				background-color:black;
 				}
-				
 			.image{
 				height: 100px;
 				width: 15%;
@@ -81,20 +85,24 @@
 	<body>
 		<header>
 			<a href = "index.html">
-				<img class = "image" src ="../static/logo.png" alt="image">
+				<img class = "image" src ="../static/logo.png" alt="logo_image">
 			</a>
 		
 		</header>
 		
 		<main>
-			<form action="#" method="POST">
+			<form action="/login" method="POST">
 				<label for="uname"> Username </label>
-				<input type="text" id="uname" name="uname" required>
+				<input type="text" id="uname" name="username" required>
 				
 				<label for="pword"> Password </label>
-				<input type="password" id="pword" name="pword" required>
+				<input type="password" id="pword" name="password" required>
 				
-				<input type="submit" value="submit">
+				<!-- Buttons container -->
+				<div class = "btn-container">
+					<input type="submit" value="Login">
+					<button type="button">Forgot Password</button>
+				</div>
 			</form>
 		</main>
 		
